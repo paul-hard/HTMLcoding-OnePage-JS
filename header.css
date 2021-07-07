@@ -2,7 +2,15 @@
 body {
     margin: 0;
     padding: 0;
-    
+}
+ul {
+    list-style-type: none;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 /*-----------*/
@@ -38,17 +46,32 @@ body {
     font-style: normal;
 }
 
-.header__main{
+.header {
+    position: absolute;
+}
+.header__wrapper {
+}
+.header__container{
+    max-width: 1240px;
+    height: 125px;
+}
+.header__body {
+}
+.header__main {
+}
+.header__logo{
     font-family: 'gilroybold';
     font-size: 24px;
 }
 
-a{
+.header__logo{
+    text-decoration: none;
+    color: #000 !important;
+}
+.menu__link{
     text-decoration: none;
     color: #000 !important;
 }
 
-p {
-    font-family: 'gilroyregular';
-}
+
 
