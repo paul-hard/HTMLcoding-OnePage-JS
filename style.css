@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'gilroybold';
+    src: url('../JulPract/fonts/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../JulPract/fonts/gilroy-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroymedium';
+    src: url('./fonts/gilroy-medium-webfont.woff2') format('woff2'),
+         url('./fonts/gilroy-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroyregular';
+    src: url('./fonts/gilroy-regular-webfont.woff2') format('woff2'),
+         url('./fonts/gilroy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroysemibold';
+    src: url('./fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+         url('./fonts/gilroy-semibold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header__main{
+    font-family: 'gilroybold';
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #000 !important;
+}
+
+p {
+    font-family: 'gilroyregular';
+}
+
+body{
+background-color:lightgreen;
+}
