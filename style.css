@@ -1,3 +1,11 @@
+/*add zero styles to page*/
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*-----------*/
 @font-face {
     font-family: 'gilroybold';
     src: url('../JulPract/fonts/gilroy-bold-webfont.woff2') format('woff2'),
@@ -44,6 +52,3 @@ p {
     font-family: 'gilroyregular';
 }
 
-body{
-background-color:lightgreen;
-}
